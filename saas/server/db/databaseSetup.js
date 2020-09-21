@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 mongoose.Promise = Promise;
 
 mongoose
-  .connect('mongodb://172.18.0.2:27017/saas', {
+  .connect('mongodb://saasify-devcontainer_devcontainer_mongo_1:27017/saas', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,

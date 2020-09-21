@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { withRouter } from 'react-router';
 
 class HomePage extends Component {
-    componentDidMount(){
+    componentDidMount() {
         console.log('this.props ', this.props);
 
         setTimeout(() => {
